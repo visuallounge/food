@@ -1,5 +1,15 @@
-This is your new *vault*.
+---
+title: Food
+---
 
-Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
+<div class="nav-menu">
+  <a href="Eis/">Eis</a>
+  <a href="Hauptgerichte/">Hauptgerichte</a>
+  <a href="Vorspeisen/">Vorspeisen</a>
+  <a href="Suppen/">Suppen</a>
+  <a href="Kids/">Kids</a>
+  <a href="Salate/">Salate</a>
+  <a href="Desserts/">Desserts</a>
+</div>
 
-When you're ready, delete this note and make the vault your own.
+Willkommen bei meiner Rezeptsammlung!
