@@ -34,3 +34,84 @@ header {
   padding: 1rem 0;
   margin-bottom: 1rem;
 }
+
+// Recipe styling
+article {
+  // Large recipe title
+  h1.article-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 2rem;
+    line-height: 1.2;
+    border-bottom: 3px solid var(--secondary);
+    padding-bottom: 0.5rem;
+  }
+
+  // Section headers (Zutaten, Zubereitung)
+  h2 {
+    font-size: 1.5rem;
+    color: var(--secondary);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+
+  // Ingredients list styling
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    background: var(--lightgray);
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
+
+    li {
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--gray);
+      font-size: 1.1rem;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      &::before {
+        content: "";
+        display: none;
+      }
+    }
+  }
+
+  // Preparation text
+  p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+  }
+}
+
+// Page title in header
+.page-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+// Folder listing pages
+.page-listing {
+  .section-li {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    background: var(--lightgray);
+    border-radius: 8px;
+    transition: transform 0.2s;
+
+    &:hover {
+      transform: translateX(5px);
+    }
+
+    a {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+  }
+}
